@@ -1,2 +1,4 @@
 # AustinAirbnbListings
-Explored Airbnb listings in the Austin area with Python; included regression and tree models to predict pricing
+The Jupyter notebook contains our exploration of Airbnb listings in the Austin area, written in Python. Our goal was to predict Airbnb listing price to help wannabe Airbnb hosts to determine appropriate pricing levels. We started with baisc exploratory analyses such as outlier identification and visualization. We also conducted TF-IDF analysis on the listing titles and descriptions to add include additional feature. Finally, we concluded with a simple regression model. Ultimately, because the limited features we had for each listing (e.g., we did not have the square footage , nor the amenities of each listing), we were not able to very accurately predict listing price.
+
+The data was originally obtained from [Kaggle](https://www.kaggle.com/PromptCloudHQ/airbnb-property-data-from-texas), though we filtered the data to only Austin and its surrounding area and identified the zipcode for each listing.
